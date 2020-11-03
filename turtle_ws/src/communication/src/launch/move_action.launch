@@ -1,6 +1,0 @@
-<launch>
-    
-    <node pkg="communication" type="move_client" name="move_client" output="screen"/>
-    <node pkg="communication" type="move_server" name="move_server" output="screen"/>
-
-</launch>
