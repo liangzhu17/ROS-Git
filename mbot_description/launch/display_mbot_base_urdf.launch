@@ -1,0 +1,15 @@
+<launch>
+	<param name="robot_description" textfile="$(find mbot_description)/urdf/mbot_base.urdf" />
+
+	<!-- Set GUI parameter and show joint controlling plug-in -->
+	<param name="use_gui" value="true"/>
+	
+	<!-- run joint_state_publisher node，publish joint state -->
+	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+	
+	<!-- run robot_state_publisher node，publish tf  -->
+	<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+	
+	<!-- run rviz visual interface -->
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find mbot_description)/config/mbot_urdf.rviz" required="true" />
+</launch>
