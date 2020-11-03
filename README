@@ -7,4 +7,4 @@ ROS-Git/turtle_ws/src/communication/src/talker.cpp
 
 The second project realizes an assumed robot to move to a position (2,2). Moving process percentage is shown in the terminal. 
 
-ROS-Git/turtle_ws/src/communication/src/Move_Clien.cpp  and  Move_server.cpp are involved.
+ROS-Git/turtle_ws/src/communication/src/Move_client.cpp  and  Move_server.cpp are involved.
