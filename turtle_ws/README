@@ -1,0 +1,10 @@
+The first project realizes a turtle2's circular motion around turtle1. The center turtle1's position is set to be (5,5). Turtle2's real-time position
+is subscribed and printed out in the terminal. A launch file is ready for its start. 
+Both subscriber and publisher are described in 
+ROS-Git/turtle_ws/src/communication/src/talker.cpp
+
+
+
+The second project realizes an assumed robot to move to a position (2,2). Moving process percentage is shown in the terminal. 
+
+ROS-Git/turtle_ws/src/communication/src/Move_client.cpp  and  Move_server.cpp are involved.
